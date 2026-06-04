@@ -39,7 +39,7 @@ cc your_file.c -L. -lft -o your_program
 ## Detailed Description
 The library is divided into three main parts:
 
-### 1. Libc Functions
+### Part 1: Libc Functions
 Reimplementation of standard functions from `<ctype.h>`, `<string.h>`, and `<stdlib.h>`:
 - **Character checks:** `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`.
 - **String manipulation:** `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_strnstr`, `ft_strdup`.
@@ -47,7 +47,7 @@ Reimplementation of standard functions from `<ctype.h>`, `<string.h>`, and `<std
 - **Conversions:** `ft_toupper`, `ft_tolower`, `ft_atoi`.
 - **Memory allocation:** `ft_calloc`.
 
-### 2. Additional Functions
+### Part 2: Additional Functions
 Functions that are not part of the standard libc but are extremely useful:
 - `ft_substr`: Extracts a substring from a string.
 - `ft_strjoin`: Concatenates two strings into a new one.
@@ -57,7 +57,7 @@ Functions that are not part of the standard libc but are extremely useful:
 - `ft_strmapi` / `ft_striteri`: Applies a function to each character of a string.
 - `ft_putchar_fd` / `ft_putstr_fd` / `ft_putendl_fd` / `ft_putnbr_fd`: Output functions for specific file descriptors.
 
-### 3. Bonus Functions (Linked Lists)
+### Part 3: Linked List Functions
 A set of functions to manipulate a singly linked list structure:
 - `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`.
 
