@@ -6,7 +6,7 @@
 /*   By: refernan <refernan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 09:10:32 by refernan          #+#    #+#             */
-/*   Updated: 2026/06/04 09:11:33 by refernan         ###   ########.fr       */
+/*   Updated: 2026/06/06 12:38:56 by refernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*tmp;
 
-	if (lst == NULL || del == NULL || lst == NULL)
+	if (lst == NULL || del == NULL)
+
 		return ;
 	while (*lst)
 	{
